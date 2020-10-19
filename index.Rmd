@@ -1,5 +1,7 @@
 --- 
-title: " Auf dem Weg zu offenen Bildungsressourcen (OER)"
+title: |
+  <img style="display: block; margin-left: auto;margin-right: auto;" src="title-icon.png" width="200">
+  "Auf dem Weg zu offenen Bildungsressourcen (OER)"
 subtitle: "Handlungsempfehlungen zur Implementierung von OER an Brandenburger Hochschulen"
 author: "Christian Dohrmann, Stefan Jank, Hans Reimann, Marc Beilcke"
 date: "`r Sys.Date()`"
