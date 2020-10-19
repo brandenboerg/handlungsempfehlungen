@@ -1,6 +1,6 @@
 --- 
 title: |
-  "Auf dem Weg zu offenen Bildungsressourcen (OER)"
+  "Auf dem Weg zu offenen Bildungsmaterialien"
 subtitle: "Handlungsempfehlungen zur Implementierung von OER an Brandenburger Hochschulen"  
 author: |
   <img style="display: block; margin-left: auto;margin-right: auto;" src="title-icon.png" width="200"></a>
