@@ -1,0 +1,21 @@
+--- 
+title: " Auf dem Weg zu offenen Bildungsressourcen (OER) – Handlungsempfehlungen zur Implementierung von OER an Brandenburger Hochschulen"
+author: "Christian Dohrmann, Stefan Jank, Hans Reimann, Marc Beilcke"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib]
+biblio-style: apalike
+link-citations: yes
+description: "In dieser Handreichung sollen Handlungsempfehlungen gegebn werden, wie Strukturen geschaffen werden können, um OER an Brandenburger Hochschulen zu verankern."
+---
+
+# Vorwort
+
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
