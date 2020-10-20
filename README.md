@@ -1,1 +1,1 @@
-In dieser Handreichung sollen Handlungsempfehlungen gegebn werden, wie Strukturen geschaffen werden können, um OER an Brandenburger Hochschulen zu verankern.
+Mit dieser Handreichung werden Handlungsempfehlungen zur Verankerung von OER an Brandenburger gegeben.
