@@ -12,7 +12,7 @@ documentclass: book
 bibliography: [book.bib]
 biblio-style: apalike
 link-citations: yes
-description: "In dieser Handreichung sollen Handlungsempfehlungen gegebn werden, wie Strukturen geschaffen werden können, um OER an Brandenburger Hochschulen zu verankern."
+description: "Mit dieser Handreichung werden Handlungsempfehlungen zur Verankerung von OER an Brandenburger gegeben."
 output: "word_document"
 ---
 
