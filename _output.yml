@@ -9,7 +9,7 @@ bookdown::gitbook:
         <a style="color:#364149" href ="https://creativecommons.org/licenses/by-sa/4.0/deed.de"><div style="display: table; margin: 0 auto; padding: 10px 0 10px 0;">CC-BY-SA 4.0 Lizenz</div>
         <img style="display: block; margin-left: auto;margin-right: auto;" src="by-sa.svg" width="100"></a>
         <div style="display: table; margin: 0 auto; padding: 10px 0 10px 0;"><a target="_blank" style="color: #008cff;" href="https://cryptpad.fr/pad/#/2/pad/edit/NFjngqjjTno9C5Kvg0Ce9wIs/">Änderungen vorschlagen</a></div>
-    download: ["pdf", "epub", "odt", "docx", "Cryptpad"]
+    download: ["pdf", "epub", "odt", "docx"]
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex
