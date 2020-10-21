@@ -3,13 +3,13 @@ bookdown::gitbook:
   config:
     toc:
       before: |
-        <div style="position:relative; padding: 10px;"><img style="display: block; margin-left: auto;margin-right: auto;" src="bbOERg-dark.png" width="180"></div>
+        <div style="position:relative; padding: 10px;"><img style="display: block; margin-left: auto;margin-right: auto;" src="/images/bbOERg-dark.png" width="180"></div>
         <li><a href="./">Handlungsempfehlungen</a></li>
       after: |
         <a style="color:#364149" href ="https://creativecommons.org/licenses/by-sa/4.0/deed.de"><div style="display: table; margin: 0 auto; padding: 10px 0 10px 0;">CC-BY-SA 4.0 Lizenz</div>
         <img style="display: block; margin-left: auto;margin-right: auto;" src="by-sa.svg" width="100"></a>
         <div style="display: table; margin: 0 auto; padding: 10px 0 10px 0;"><a target="_blank" style="color: #008cff;" href="https://cryptpad.fr/pad/#/2/pad/edit/NFjngqjjTno9C5Kvg0Ce9wIs/">Änderungen vorschlagen</a></div>
-    download: ["pdf", "epub", "odt", "docx", "md", "rtf"]
+    download: ["pdf", "epub", "odt", "docx", "rtf"]
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex
@@ -18,6 +18,5 @@ bookdown::pdf_book:
   keep_tex: yes
 bookdown::epub_book: default
 bookdown::odt_document2: default
-word_document: default
-md_document: default
-rtf_document: default
+bookdown::word_document2: default
+bookdown::rtf_document2: default
