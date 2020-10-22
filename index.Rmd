@@ -1,10 +1,10 @@
---- 
+---
 title: |
   "Auf dem Weg zu offenen Bildungsmaterialien"
-subtitle: "Handlungsempfehlungen zur Implementierung von OER an Brandenburger Hochschulen"  
+subtitle: "Handlungsempfehlungen zur Implementierung von OER an Brandenburger Hochschulen"
 author: |
-  <img style="padding-bottom: 20px; display: block; margin-left: auto;margin-right: auto;" src="images/Header-BrandenbOERg.jpg" width="100%"></a>  
-  **Autoren**  
+  <img style="padding-bottom: 20px; display: block; margin-left: auto;margin-right: auto;" src="images/Header-BrandenbOERg.jpg" width="100%"></a>
+  **Autoren**
   "Christian Dohrmann, Stefan Jank, Hans Reimann, Marc Beilcke"
 date: <strong>Version 1.0</strong> vom "`r Sys.Date()`" <hr>
 site: bookdown::bookdown_site
