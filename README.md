@@ -12,11 +12,24 @@ eingesehen werden.
 ## Abhängigkeiten
 
 Die Empfehlungen liegen im [rmarkdown](https://rmarkdown.rstudio.com/)-Format
-vor. Zur Übersetzung wird eine [R](https://www.r-project.org/)-Installation mit
-folgenden Pakete benötigt:
-    - [rmarkdown](https://rmarkdown.rstudio.com/)
-    - [bookdown](https://www.bookdown.org/)
+vor. Zur Übersetzung werden folgende Programe benötigt:
 
-Zusätzlich werden folgende Tools benötigt:
+- [R](https://www.r-project.org/) mit folgenden Paketen:
+  - [rmarkdown](https://rmarkdown.rstudio.com/)
+  - [bookdown](https://www.bookdown.org/)
+- [pandoc](https://pandoc.org/) Version 2.3 oder höher)
+- XeTeX-kompatible LaTeX-Installation (zur PDF-Erzeugung)
 
-    - pandoc (Version 2.3 oder höher)
+## Mit RStudio
+
+Lade in RStudio die Projektdatei `handlungsempfehlungen.Rproj` und starte die
+Übersetzung mit _Build all_.
+
+## Mit RScript
+
+Wechsele auf der Kommandozeile in das Repository-Verzeichnis und starte die
+Übersetzung mit:
+
+```
+Rscript -e "bookdown::render_book(input='index.Rmd', output_format='all')"
+```
