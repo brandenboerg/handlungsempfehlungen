@@ -17,7 +17,7 @@ jobs:
         with:
           persist-credentials: false      
       - name: Build
-        run: ./build.sh
+        run: Rscript -e "bookdown::render_book(input='index.Rmd', output_format='all')"
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
