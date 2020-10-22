@@ -1,0 +1,27 @@
+name: Update Pages
+
+on:
+  push:
+    branches: [ master ]
+  
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    container:
+      image: rocker/verse:latest
+    steps:
+      - name: Prepare
+        run: apt-get update && apt-get install -y rsync
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false      
+      - name: Build
+        run: ./build.sh
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          BRANCH: gh-pages
+          FOLDER: docs
+          CLEAN: true
