@@ -3,7 +3,7 @@ bookdown::gitbook:
   config:
     toc:
       before: |
-        <div style="position:relative; padding: 10px;"><img style="display: block; margin-left: auto;margin-right: auto;" src="/images/bbOERg-dark.png" width="180"></div>
+        <div style="position:relative; padding: 10px;"><img style="display: block; margin-left: auto;margin-right: auto;" src="images/bbOERg-dark.png" width="180"></div>
         <li><a href="./">Handlungsempfehlungen</a></li>
       after: |
         <a style="color:#364149" href ="https://creativecommons.org/licenses/by-sa/4.0/deed.de"><div style="display: table; margin: 0 auto; padding: 10px 0 10px 0;">CC-BY-SA 4.0 Lizenz</div>
