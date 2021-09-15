@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>“Auf dem Weg zu offenen Bildungsmaterialien”</title>
   <meta name="description" content="Mit dieser Handreichung werden Handlungsempfehlungen zur Verankerung von OER an Brandenburger Hochschulen gegeben." />
-  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
   <meta property="og:title" content="“Auf dem Weg zu offenen Bildungsmaterialien”" />
   <meta property="og:type" content="book" />
@@ -31,7 +31,9 @@
   
 
 <link rel="next" href="intro.html"/>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/header-attrs-2.10/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -47,8 +49,9 @@
 
 
 
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
 
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 
 
 
@@ -104,10 +107,10 @@
 <p class="author"><em><p><img style="padding-bottom: 20px; display: block; margin-left: auto;margin-right: auto;" src="images/Header-BrandenbOERg.jpg" width="100%"></a>
 <strong>Autoren</strong>
 “Christian Dohrmann, Stefan Jank, Hans Reimann, Marc Beilcke”</p></em></p>
-<p class="date"><em><strong>Version 1.0 (commit id d316777f1d3319a87bcb8717937cc463ad7e24c8)</strong> vom “2020-10-22”
+<p class="date"><em><strong>Version 1.0 (commit id c650b7033654617ae33bce45c42a22ce41b5263d)</strong> vom “2021-09-15”
 <hr></em></p>
 </div>
-<div id="vorwort" class="section level1">
+<div id="vorwort" class="section level1" number="1">
 <h1><span class="header-section-number">Kapitel 1</span> Vorwort</h1>
 
 </div>
@@ -121,7 +124,6 @@
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -140,6 +142,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
@@ -160,6 +163,10 @@ gitbook.start({
 "text": null
 },
 "download": ["Handlungsempfehlungen.pdf", "Handlungsempfehlungen.epub", "Handlungsempfehlungen.odt", "Handlungsempfehlungen.docx", "Handlungsempfehlungen.rtf"],
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
 }
