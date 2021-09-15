@@ -6,7 +6,7 @@ author: |
   <img style="padding-bottom: 20px; display: block; margin-left: auto;margin-right: auto;" src="images/Header-BrandenbOERg.jpg" width="100%"></a>
   **Autoren**
   "Christian Dohrmann, Stefan Jank, Hans Reimann, Marc Beilcke"
-date: <strong>Version 1.0 (commit id `r Sys.getenv("GITHUB_SHA")`)</strong> vom "`r Sys.Date()`" <hr>
+date: <strong>Version 1.0 (commit id `r Sys.getenv("GITHUB_SHA")`)</strong> vom "`r Sys.Date()`" Repo: `r Sys.getenv("GITHUB_WORKSPACE")`<hr>
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
